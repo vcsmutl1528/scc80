@@ -336,7 +336,7 @@ gen_ret() {
 callstk() {
     gen_immediate ();
 //    output_string ("#.+5");
-    output_string (".+5");
+    output_string ("$+5");
     newline ();
     gen_swap_stack ();
     output_line ("pchl");
